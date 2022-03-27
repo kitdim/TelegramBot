@@ -25,6 +25,7 @@ namespace TelegramBotExperiments
                     return;
                 }
                 await botClient.SendTextMessageAsync(message.Chat, "Привет-привет!!");
+                await botClient.SendTextMessageAsync(message.Chat, "Привет-привет!!");
             }
         }
 
